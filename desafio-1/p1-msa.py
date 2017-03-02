@@ -8,7 +8,7 @@ import hashlib
 from time import time
 
 
-def mistery(r, n):
+def my_func(r, n):
     dicc = {}
     dicc_valores = {}
     tiempo_inicial = time()
@@ -21,7 +21,7 @@ def mistery(r, n):
                 uno = True
                 posicion_equivalente = inferir(i - 1, dist, n)
         if i == posicion_equivalente + 1:
-            print 'mistery("00000000000000000000000000000000", 2017201720172017) =', dicc_valores.get(
+            print 'my_func("00000000000000000000000000000000", 2017201720172017) =', dicc_valores.get(
                 posicion_equivalente)
             break
         else:
@@ -41,4 +41,4 @@ def inferir(i, dist, n):
     return posicion_equivalente
 
 
-mistery("0000000000", 2017201720172017)  # solo necesito 9
+my_func("000000000", 2017201720172017)  # solo necesito 9
