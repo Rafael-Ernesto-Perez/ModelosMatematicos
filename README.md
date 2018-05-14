@@ -4,7 +4,7 @@ Desafío para desarrolladores!
 Si te interesa participar postulate a la búqueda. Por favor no olvides comentar cuál fue tu razonamiento para llegar al resultado.
 El ejercicio es para resolver de forma individual, cualquier duda que tengas podrás enviarla posteriormente por email.
 =====================================================
-Considerando la siguiente funciÃ³n python:
+Considerando la siguiente función python:
 def my_func(r, n):
 for i in xrange(n): r = hashlib.md5(r[:9]).hexdigest()
 return r
