@@ -19,3 +19,7 @@ my_func("00000000000000000000000000000000", 2017) = bc107c24b44b5a518b4286ed7e5a
 =====================================================
 
 
+"""Caso de uso practico: desconocida la palabra original, pero conociendo la llave generada por la misma, se aplica colisión de hash, para detectar el ciclo en el cual, en  la iteración 'n' donde se vuelve a obtener la llave generada por la palabra desconocida, entonces la llave hallada en la iteración "n-1" será equivalente a la palabra desconocida, ya que al ingresarla al sistema genera la misma llave que genera la palabra desconocida.
+"""
+
+
